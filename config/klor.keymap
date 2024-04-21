@@ -75,7 +75,7 @@ label= "BASE"                                                  ;
     &kp DEL &hm LSHFT Z &kp X     &kp C     &kp V     &kp B     &trans     &trans    &kp N     &kp M     &kp COMMA &kp DOT   &kp FSLH  &kp BSLH
                                   &kp LCTRL &kp LALT  &mo LOWER &kp SPACE  &kp LGUI  &kp RET   &mo RAISE &kp BSPC    
                         >;
-            
+                        sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_BRI_UP C_BRI_DN>;
                 };
 
 // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
