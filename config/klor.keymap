@@ -111,6 +111,13 @@
             bindings = <&kp LC(LA(RIGHT))>;
         };
 
+//  SHIFT: make all character capitolized
+        combo_13 {
+            timeout-ms = <50>;
+            key-positions = <38 41>;
+            bindings = <&kp LSHFT>;
+        };
+
 // add more here
 
     };
@@ -138,7 +145,7 @@
               &kp Q    &kp W    &kp E        &kp R        &kp T                       &kp Y  &kp U     &kp I     &kp O    &kp P    
 &kp TAB       &kp A    &kp S    &kp D        &kp F        &kp G                       &kp H  &kp J     &kp K     &kp L    &mo 3    &kp BSPC
 &kp LSHFT     &kp Z    &kp X    &kp C        &kp V        &kp B  &kp C_MUTE  &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS   &kp N  &kp M     &kp COMMA &kp DOT  &kp FSLH &kp RET
-                                    &kp LCTRL &mo 1  &kp LGUI  &kp LSHFT    &kp LG(SPACE)   &mo 2   &kp SPACE  &kp RALT
+                                    &kp LCTRL &mo 1  &kp LGUI  &mo 3    &kp LG(SPACE)  &kp SPACE    &mo 2   &kp RALT
             >;
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
 
@@ -170,9 +177,9 @@
 
         layer_3 {
             bindings = <
-         &trans     &trans    &trans       &trans     &trans                 &kp LG(RIGHT)    &kp LA(LEFT)    &kp UP     &kp LA(RIGHT)  &trans
-&trans   &trans     &kp LCTRL  &kp LALT  &kp LGUI  &trans                 &kp LG(LEFT)     &kp LEFT        &kp DOWN   &kp RIGHT      &trans  &trans
-&trans   &kp Z     &kp X     &kp C      &kp V     &kp B &trans  &trans    &kp LG(A)        &kp LG(X)       &kp LG(C)     &kp LG(V)    &trans  &trans
+         &trans           &trans           &trans        &kp LG(R)      &trans                              &kp LG(RIGHT)    &kp LA(LEFT)    &kp UP     &kp LA(RIGHT)  &trans
+&kp ESC  &kp LG(LS(LBKT)) &kp LG(LS(RBKT)) &kp LG(LBKT)  &kp LG(RBKT)   &kp LG(H)                           &kp LG(LEFT)     &kp LEFT        &kp DOWN   &kp RIGHT      &trans  &trans
+&trans   &kp Z            &kp LG(X)        &kp LG(C)     &kp LG(V)      &kp B &trans  &trans    &kp LG(A)   &kp LG(X)       &kp LG(C)     &kp LG(V)    &trans  &trans
                                     &trans  &trans  &trans  &trans        &trans    &kp TAB   &kp LS(TAB)      &kp N             
            >;
         };
