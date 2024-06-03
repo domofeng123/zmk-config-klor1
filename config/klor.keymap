@@ -177,9 +177,9 @@
 
         layer_3 {
             bindings = <
-         &trans           &trans           &trans        &kp LG(R)      &trans                              &kp LG(RIGHT)    &kp LA(LEFT)    &kp UP     &kp LA(RIGHT)  &trans
+         &trans           &kp LG(W)        &trans        &kp LG(R)      &kp PG_UP                              &kp LG(RIGHT)    &kp LA(LEFT)    &kp UP     &kp LA(RIGHT)  &trans
 &kp ESC  &kp LG(LS(LBKT)) &kp LG(LS(RBKT)) &kp LG(LBKT)  &kp LG(RBKT)   &kp LG(H)                           &kp LG(LEFT)     &kp LEFT        &kp DOWN   &kp RIGHT      &trans  &trans
-&trans   &kp Z            &kp LG(X)        &kp LG(C)     &kp LG(V)      &kp B &trans  &trans    &kp LG(A)   &kp LG(X)       &kp LG(C)     &kp LG(V)    &trans  &trans
+&trans   &kp Z            &kp LG(X)        &kp LG(C)     &kp LG(V)      &kp PG_DN  &trans  &trans    &kp LG(A)   &kp LG(X)       &kp LG(C)     &kp LG(V)    &trans  &trans
                                     &trans  &trans  &trans  &trans        &trans    &kp TAB   &kp LS(TAB)      &kp N             
            >;
         };
