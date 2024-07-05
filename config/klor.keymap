@@ -45,7 +45,7 @@
         combo_1 {
             layers = <0>;
             timeout-ms = <50>;
-            key-positions = <17 18>;
+            key-positions = <13 14>;
             bindings = <&press_gui>;
         };
 // this is used for set BLE profile, and reset for current profile
@@ -177,10 +177,10 @@
 
         layer_3 {
             bindings = <
-          &trans         &kp LG(W)     &trans           &kp LG(R)         &trans                           &kp LG(RIGHT)    &kp LA(LEFT)    &kp UP     &kp LA(RIGHT)  &trans
-&kp ESC   &kp LG(LBKT)   &kp LG(RBKT)  &kp LG(LS(LBKT)) &kp LG(LS(RBKT)) &kp LG(H)                           &kp LG(LEFT)     &kp LEFT        &kp DOWN   &kp RIGHT      &trans  &trans
-&trans    &mkp LCLK      &mkp RCLK     &kp PG_UP        &kp PG_DN        &kp LG(T)  &trans  &trans    &kp LG(A)   &kp LG(X)       &kp LG(C)     &kp LG(V)    &trans  &trans
-                                    &trans  &trans  &trans  &trans        &kp LSHFT   &kp TAB   &kp LS(TAB)     &kp N             
+          &trans         &kp LG(W)     &trans           &kp LG(R)         &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS       &kp LG(RIGHT)    &kp LA(LEFT)    &kp UP     &kp LA(RIGHT)  &trans
+&kp ESC   &kp LG(LBKT)   &kp LG(RBKT)  &kp LG(LS(LBKT)) &kp LG(LS(RBKT)) &kp LG(H)                                &kp LG(LEFT)     &kp LEFT        &kp DOWN   &kp RIGHT      &trans  &trans
+&trans    &kp LEFT       &kp RIGHT    &kp PG_UP        &kp PG_DN        &kp LG(T)  &trans  &trans    &kp LG(A)   &kp LG(X)       &kp LG(C)     &kp LG(V)    &trans  &trans
+                                    &trans  &trans  &kp TAB  &kp LS(TAB)        &kp LSHFT   &trans  &trans     &kp N             
            >;
         };
 
