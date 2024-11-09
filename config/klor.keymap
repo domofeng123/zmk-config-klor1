@@ -118,6 +118,22 @@
             bindings = <&kp LSHFT>;
         };
 
+//  ctrl+tab: chrome tab right select
+        combo_15 {
+            layers = <4>;
+            timeout-ms = <90>;
+            key-positions = <13 14>;
+            bindings = <&kp LC(TAB)>;
+        };
+
+//  ctrl+tab: chrome tab left select
+        combo_16 {
+            layers = <4>;
+            timeout-ms = <90>;
+            key-positions = <12 13>;
+            bindings = <&kp LC(LS(TAB))>;
+        };
+
 // add more here
 
     };
