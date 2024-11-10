@@ -146,7 +146,7 @@
         combo_18 {
             layers = <5>;
             timeout-ms = <90>;
-            key-positions = <23 24 25 26>;
+            key-positions = <31 32 33 34>;
             bindings = <&to 0>;
         };
 
