@@ -249,7 +249,7 @@
             bindings = <
               &none &none &none &none &none             &none &none &none &none &none
 &kp TAB       &kp A  &kp S  &kp D   &kp F  &kp G            &kp H  &kp J &kp K  &kp L  &kp SEMI  &kp BSPC  
-&kp LSHFT   &none &none &none &none &none &none &none &none &none &none &none &kp RET  
+&kp LSHFT   &none &none &none &none &none &none &none &none &none &none &none &none &kp RET  
                     &none &none &kp LGUI &none       &none  &kp SPACE &none &none
            >;
         };
