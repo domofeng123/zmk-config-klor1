@@ -140,16 +140,15 @@
             layers = <4>;
             timeout-ms = <90>;
             key-positions = <12 13>;
-//          bindings = <&kp LC(LS(TAB))>;
-            bindings = <&tog 6>;
+          bindings = <&kp LC(LS(TAB))>;
         };
 
-//  move to layer for DJ-max
+//  dj: move to layer for DJ-max
         combo_17 {
-            layers = <4>;
+            layers = <4 6>;
             timeout-ms = <90>;
             key-positions = <25 26>;
-            bindings = <&kp Q>;
+            bindings = <&tog 6>;
         };
 
 
