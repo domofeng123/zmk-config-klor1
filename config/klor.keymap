@@ -55,15 +55,11 @@
             key-positions = <36 37>;
             bindings = <&mo 5>;
         };
-//  dj: move to layer for DJ-max
+//  dj-max: move to layer for DJ-max
         combo_3 {
-//            layers = <0>;
-//            timeout-ms = <50>;
-//            key-positions = <18 19>;
-//            bindings = <&kp C_AC_DESKTOP_SHOW_ALL_WINDOWS>;
             layers = <4 6>;
             timeout-ms = <90>;
-            key-positions = <25 26>;
+            key-positions = <23 24 25 26>;
             bindings = <&tog 6>;
         };
 
@@ -245,7 +241,7 @@
             bindings = <
               &none &none &none &none &none             &none &none &none &none &none
 &kp TAB       &kp A  &kp S  &kp D   &kp F  &kp G            &kp H  &kp J &kp K  &kp L  &kp SEMI  &kp BSPC  
-&kp LSHFT   &none &none &none &none &none &none &none &none &none &none &none &none &kp RET  
+&kp LSHFT   &kp Z &none &none &none &none &none &none &none &none &none &none &none &kp RET  
                     &none &none &kp LGUI &none       &none  &kp SPACE &none &none
            >;
         };
