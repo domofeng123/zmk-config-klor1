@@ -57,6 +57,7 @@
         };
 //  show all tasks
         combo_3 {
+            layers = <0>;
             timeout-ms = <50>;
             key-positions = <18 19>;
             bindings = <&kp C_AC_DESKTOP_SHOW_ALL_WINDOWS>;
@@ -64,6 +65,7 @@
 
 //  ctl + alt + Left: move window to left 1/3
         combo_7 {
+            layers = <0>;
             timeout-ms = <50>;
             key-positions = <23 24>;
             bindings = <&kp LG(LA(LEFT))>;
@@ -71,6 +73,7 @@
 
 //  ctl + alt + down: move window to middle 1/3
         combo_8 {
+            layers = <0>;
             timeout-ms = <50>;
             key-positions = <24 25>;
             bindings = <&kp LG(LA(DOWN))>;
@@ -78,6 +81,7 @@
 
 //  ctl + alt + right: move window to right 1/3
         combo_9 {
+            layers = <0>;
             timeout-ms = <50>;
             key-positions = <25 26>;
             bindings = <&kp LG(LA(RIGHT))>;
@@ -85,6 +89,7 @@
 
 //  command + option + left: move window to left 2/3
         combo_10 {
+            layers = <0>;
             timeout-ms = <50>;
             key-positions = <23 25>;
             bindings = <&kp LG(LC(LEFT))>;
@@ -92,6 +97,7 @@
 
 //  command + option + right: move window to right 2/3
         combo_11 {
+            layers = <0>;
             timeout-ms = <50>;
             key-positions = <24 26>;
             bindings = <&kp LG(LC(RIGHT))>;
@@ -99,6 +105,7 @@
 
 //  alt + option + left: move window to left 1/2
         combo_12 {
+            layers = <0>;
             timeout-ms = <50>;
             key-positions = <23 24 25>;
             bindings = <&kp LC(LA(LEFT))>;
@@ -106,6 +113,7 @@
 
 //  alt + option + right: move window to right 1/2
         combo_13 {
+            layers = <0>;
             timeout-ms = <50>;
             key-positions = <24 25 26>;
             bindings = <&kp LC(LA(RIGHT))>;
@@ -113,6 +121,7 @@
 
 //  SHIFT: make all character capitolized
         combo_14 {
+            layers = <0>;
             timeout-ms = <90>;
             key-positions = <38 41>;
             bindings = <&kp LSHFT>;
@@ -138,7 +147,7 @@
         combo_17 {
             layers = <4 6>;
             timeout-ms = <90>;
-            key-positions = <25 26>;
+            key-positions = <23 24 25 26>;
             bindings = <&tog 6>;
         };
 
