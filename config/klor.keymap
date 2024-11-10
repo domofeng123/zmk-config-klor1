@@ -138,7 +138,7 @@
         combo_17 {
             layers = <4 6>;
             timeout-ms = <90>;
-            key-positions = <23 24 25 26>;
+            key-positions = <25 26>;
             bindings = <&tog 6>;
         };
 
