@@ -134,6 +134,22 @@
             bindings = <&kp LC(LS(TAB))>;
         };
 
+//  move to layer for DJ-max
+        combo_17 {
+            layers = <4>;
+            timeout-ms = <90>;
+            key-positions = <23 24 25 26>;
+            bindings = <&to 6>;
+        };
+
+//  move to default
+        combo_18 {
+            layers = <5>;
+            timeout-ms = <90>;
+            key-positions = <23 24 25 26>;
+            bindings = <&to 0>;
+        };
+
 // add more here
 
     };
@@ -219,6 +235,18 @@
 &none         &none &none &none &none &none             &none &none &none &none &none &none  
 &bootloader   &none &none &none &none &none &none &none &none &none &none &none &none &bootloader 
                     &none &none &none &none       &none &none &none &none
+           >;
+        };
+
+
+// 6 DJ-max layer
+
+        layer_6 {
+            bindings = <
+              &none &none &none &none &none             &none &none &none &none &none
+&kp TAB       &kp A  &kp S  &kp D   &kp F  &kp G            &kp H  &kp J &kp K  &kp L  &kp SEMI  &kp BSPC  
+&kp LSHFT   &none &none &none &none &none &none &none &none &none &none &none &kp RET  
+                    &none &none &kp LGUI &none       &none  &kp SPACE &none &none
            >;
         };
     };
