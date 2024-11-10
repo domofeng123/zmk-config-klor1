@@ -242,7 +242,7 @@
               &none &none &none &none &none             &none &none &none &none &none
 &kp TAB       &kp A  &kp S  &kp D   &kp F  &kp G            &kp H  &kp J &kp K  &kp L  &kp SEMI  &kp BSPC  
 &kp LSHFT   &kp Z &none &none &none &none &none &none &none &none &none &none &none &kp RET  
-                    &none &none &kp LGUI &none       &none  &kp SPACE &none &none
+                    &none &none &kp LCTRL &mo 4       &none  &kp SPACE &none &none
            >;
         };
     };
