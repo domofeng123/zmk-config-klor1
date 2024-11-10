@@ -145,7 +145,7 @@
 
 //  move to layer for DJ-max
         combo_17 {
-            layers = <4 6>;
+            layers = <1 6>;
             timeout-ms = <90>;
             key-positions = <25 26>;
             bindings = <&kp Q>;
@@ -154,7 +154,7 @@
          combo_18 {
             layers = <0>;
             timeout-ms = <90>;
-            key-positions = <25 26>;
+            key-positions = <3 4>;
             bindings = <&kp W>;
         };
 
