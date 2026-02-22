@@ -1,0 +1,1 @@
+list(APPEND SHIELD_DIRS "${CMAKE_CURRENT_LIST_DIR}/boards/shields")

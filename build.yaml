@@ -13,9 +13,18 @@
 #
 
 include:
+  # Standard setup: left half acts as BLE central, connects directly to host
   - board: nice_nano_v2
     shield: klor_left
   - board: nice_nano_v2
     shield: klor_right
+
+  # Dongle setup: dedicated nice!nano v2 as USB receiver, both halves are peripherals
+  - board: nice_nano_v2
+    shield: klor_dongle
+  - board: nice_nano_v2
+    shield: klor_left_peripheral
+  # klor_right firmware is shared between both setups (it is always a peripheral)
+
 # - board: nice_nano_v2
 #    shield: settings_reset

@@ -9,8 +9,29 @@ if SHIELD_KLOR_LEFT
 endif # LEFT
 
 
+if SHIELD_KLOR_DONGLE
 
-if SHIELD_KLOR_LEFT || SHIELD_KLOR_RIGHT
+    config ZMK_KEYBOARD_NAME
+        default "KLOR"
+
+    config ZMK_SPLIT_BLE_ROLE_CENTRAL
+        default y
+
+    config ZMK_SPLIT
+        default y
+
+endif # DONGLE
+
+
+if SHIELD_KLOR_LEFT_PERIPHERAL
+
+    config ZMK_KEYBOARD_NAME
+        default "KLOR Left"
+
+endif # LEFT_PERIPHERAL
+
+
+if SHIELD_KLOR_LEFT || SHIELD_KLOR_RIGHT || SHIELD_KLOR_LEFT_PERIPHERAL
 
     config ZMK_SPLIT
         default y
@@ -49,4 +70,4 @@ if LVGL
 endif # LVGL
 
 
-endif # LEFT RIGHT
+endif # LEFT RIGHT LEFT_PERIPHERAL

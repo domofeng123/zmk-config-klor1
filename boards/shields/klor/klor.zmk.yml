@@ -12,3 +12,5 @@ features:
 siblings:
   - klor_left
   - klor_right
+  - klor_dongle
+  - klor_left_peripheral

@@ -1,0 +1,4 @@
+name: klor-config
+build:
+  cmake: .
+  kconfig: .

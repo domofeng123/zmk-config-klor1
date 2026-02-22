@@ -1,0 +1,10 @@
+/*
+ * Copyright (c) 2022 The ZMK Contributors
+ * SPDX-License-Identifier: MIT
+ *
+ * klor_left_peripheral - left half of KLOR as a BLE peripheral.
+ * Flash this instead of klor_left when using a dongle as the USB host.
+ * Identical hardware setup to klor_left but without the BLE central role.
+ */
+
+#include "klor_left.overlay"
