@@ -205,9 +205,9 @@
 
         layer_3 {
             bindings = <
-          &F1       &F2      &F3   &F4          &F5                                &kp LG(RIGHT)    &kp LA(LEFT)    &kp UP     &kp LA(RIGHT)  &trans
-&trans   &F6       &F7      &F8     &F9        &F10                                &kp LG(LEFT)     &kp LEFT        &kp DOWN   &kp RIGHT      &trans  &trans
-&trans    &F11     &F12      &F13   &F14       &F15  &trans  &trans                &kp LG(A)   &kp LG(X)       &kp LG(C)     &kp LG(V)    &trans  &trans
+          &kp F1       &kp F2      &kp F3   &kp F4          &kp F5                                &kp LG(RIGHT)    &kp LA(LEFT)    &kp UP     &kp LA(RIGHT)  &trans
+&trans   &kp F6       &kp F7      &kp F8     &kp F9        &kp F10                                &kp LG(LEFT)     &kp LEFT        &kp DOWN   &kp RIGHT      &trans  &trans
+&trans    &kp F11     &kp F12      &kp F13   &kp F14       &kp F15  &trans  &trans                &kp LG(A)   &kp LG(X)       &kp LG(C)     &kp LG(V)    &trans  &trans
                                     &trans  &trans  &trans    &trans          &trans   &trans  &trans     &trans            
            >;
         };
