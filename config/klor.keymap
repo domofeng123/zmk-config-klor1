@@ -152,7 +152,7 @@
         };
 
 // f12
-        combo_17 {
+        combo_18 {
             layers = <3>;
             timeout-ms = <90>;
             key-positions = <1 36>;
@@ -160,7 +160,7 @@
         };
 
 // f13
-        combo_17 {
+        combo_19 {
             layers = <3>;
             timeout-ms = <90>;
             key-positions = <2 36>;
@@ -168,7 +168,7 @@
         };
 
 // f14
-        combo_17 {
+        combo_20 {
             layers = <3>;
             timeout-ms = <90>;
             key-positions = <3 36>;
@@ -176,7 +176,7 @@
         };
 
 // f15
-        combo_17 {
+        combo_21 {
             layers = <3>;
             timeout-ms = <90>;
             key-positions = <4 36>;
@@ -184,7 +184,7 @@
         };
 
 // f16
-        combo_17 {
+        combo_22 {
             layers = <3>;
             timeout-ms = <90>;
             key-positions = <11 36>;
@@ -192,7 +192,7 @@
         };
 
 // f17
-        combo_17 {
+        combo_23 {
             layers = <3>;
             timeout-ms = <90>;
             key-positions = <12 36>;
@@ -200,7 +200,7 @@
         };
 
 // f18
-        combo_17 {
+        combo_24 {
             layers = <3>;
             timeout-ms = <90>;
             key-positions = <13 36>;
@@ -208,7 +208,7 @@
         };
 
 // f19
-        combo_17 {
+        combo_25 {
             layers = <3>;
             timeout-ms = <90>;
             key-positions = <14 36>;
@@ -216,7 +216,7 @@
         };
 
 // f20
-        combo_17 {
+        combo_26 {
             layers = <3>;
             timeout-ms = <90>;
             key-positions = <15 36>;
