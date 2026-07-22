@@ -300,7 +300,7 @@
 &trans    &kp LEFT       &kp RIGHT    &kp PG_UP        &kp PG_DN        &kp LG(T)  &trans  &trans    &kp LG(A)   &kp LG(X)       &kp LG(C)     &kp LG(V)    &trans  &trans
                                     &trans  &trans  &kp LS(TAB)    &kp TAB          &kp LSHFT   &trans  &trans     &kp N             
            >;
-           sensor-bindings = <&kp LC(LS(TAB)) &kp LC(TAB)>;
+           sensor-bindings = <&inc_dec_kp LC(LS(TAB)) LC(TAB)>;
         };
 
 // 5 boot load layer
