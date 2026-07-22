@@ -143,6 +143,85 @@
           bindings = <&kp LC(LS(TAB))>;
         };
 
+// f11
+        combo_17 {
+            layers = <3>;
+            timeout-ms = <90>;
+            key-positions = <0 36>;
+          bindings = <&kp F11>;
+        };
+
+// f12
+        combo_17 {
+            layers = <3>;
+            timeout-ms = <90>;
+            key-positions = <1 36>;
+          bindings = <&kp F12>;
+        };
+
+// f13
+        combo_17 {
+            layers = <3>;
+            timeout-ms = <90>;
+            key-positions = <2 36>;
+          bindings = <&kp F13>;
+        };
+
+// f14
+        combo_17 {
+            layers = <3>;
+            timeout-ms = <90>;
+            key-positions = <3 36>;
+          bindings = <&kp F14>;
+        };
+
+// f15
+        combo_17 {
+            layers = <3>;
+            timeout-ms = <90>;
+            key-positions = <4 36>;
+          bindings = <&kp F15>;
+        };
+
+// f16
+        combo_17 {
+            layers = <3>;
+            timeout-ms = <90>;
+            key-positions = <11 36>;
+          bindings = <&kp F16>;
+        };
+
+// f17
+        combo_17 {
+            layers = <3>;
+            timeout-ms = <90>;
+            key-positions = <12 36>;
+          bindings = <&kp F17>;
+        };
+
+// f18
+        combo_17 {
+            layers = <3>;
+            timeout-ms = <90>;
+            key-positions = <13 36>;
+          bindings = <&kp F18>;
+        };
+
+// f19
+        combo_17 {
+            layers = <3>;
+            timeout-ms = <90>;
+            key-positions = <14 36>;
+          bindings = <&kp F19>;
+        };
+
+// f20
+        combo_17 {
+            layers = <3>;
+            timeout-ms = <90>;
+            key-positions = <15 36>;
+          bindings = <&kp F20>;
+        };
 
 
 
@@ -207,7 +286,7 @@
             bindings = <
           &kp F1       &kp F2      &kp F3   &kp F4          &kp F5                                &kp LG(RIGHT)    &kp LA(LEFT)    &kp UP     &kp LA(RIGHT)  &trans
 &trans   &kp F6       &kp F7      &kp F8     &kp F9        &kp F10                                &kp LG(LEFT)     &kp LEFT        &kp DOWN   &kp RIGHT      &trans  &trans
-&trans    &kp F11     &kp F12      &kp F13   &kp F14       &kp F15  &trans  &trans                &kp LG(A)   &kp LG(X)       &kp LG(C)     &kp LG(V)    &trans  &trans
+&trans    &trans     &trans      &trans         &trans       &trans  &trans  &trans                &kp LG(A)   &kp LG(X)       &kp LG(C)     &kp LG(V)    &trans  &trans
                                     &trans  &trans  &trans    &trans          &trans   &trans  &trans     &trans            
            >;
         };
