@@ -254,7 +254,7 @@
 &kp LSHFT     &kp Z    &kp X    &kp C        &kp V        &kp B  &kp C_MUTE  &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS   &kp N  &kp M     &kp COMMA &kp DOT  &kp FSLH &kp RET
                                     &kp LCTRL &mo 1  &kp LGUI  &mo 4    &kp LG(SPACE)  &kp SPACE    &mo 2   &kp RALT
             >;
-            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp C_VOL_DN C_VOL_UP>;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp LEFT RIGHT>;
 
         };
 
@@ -300,7 +300,7 @@
 &trans    &kp LEFT       &kp RIGHT    &kp PG_UP        &kp PG_DN        &kp LG(T)  &trans  &trans    &kp LG(A)   &kp LG(X)       &kp LG(C)     &kp LG(V)    &trans  &trans
                                     &trans  &trans  &kp LS(TAB)    &kp TAB          &kp LSHFT   &trans  &trans     &kp N             
            >;
-           sensor-bindings = <&inc_dec_kp LC(LS(TAB)) LC(TAB)>;
+           sensor-bindings = <&inc_dec_kp LC(LS(TAB)) LC(TAB) &inc_dec_kp LEFT RIGHT>;
         };
 
 // 5 boot load layer
