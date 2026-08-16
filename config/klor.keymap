@@ -254,7 +254,7 @@
 &kp LSHFT     &kp Z    &kp X    &kp C        &kp V        &kp B  &kp C_MUTE  &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS   &kp N  &kp M     &kp COMMA &kp DOT  &kp FSLH &kp RET
                                     &kp LCTRL &mo 1  &kp LGUI  &mo 4    &kp LG(SPACE)  &kp SPACE    &mo 2   &kp RALT
             >;
-            sensor-bindings = <&inc_dec_kp LEFT RIGHT &inc_dec_kp LEFT RIGHT>;
+            sensor-bindings = <&inc_dec_kp LEFT RIGHT &inc_dec_kp &msc SCRL_UP &msc SCRL_DOWN>;
 
         };
 
@@ -274,7 +274,7 @@
         layer_2 {
             bindings = <
         &kp N0  &kp N1  &kp N2  &kp N3  &trans                     &kp LG(R)   &kp LG(LS(LBKT)) &kp LG(LS(RBKT))  &kp LG(LBKT)  &kp LG(RBKT)
-&trans  &kp DOT  &kp N4  &kp N5  &kp N6  &trans                      &kp LG(H)   &mkp LCLK        &mkp MCLK         &mkp RCLK       &kp LG(W)  &kp LC(BSPC)
+&trans  &kp DOT  &kp N4  &kp N5  &kp N6  &kp MINUS                      &kp LG(H)   &mkp LCLK        &mkp MCLK         &mkp RCLK       &kp LG(W)  &kp LC(BSPC)
 &trans  &kp COMMA  &kp N7  &kp N8  &kp N9  &trans  &trans     &trans   &kp LG(T)   &kp PG_UP        &kp PG_DN         &kp LG(C)     &kp LG(V)    &kp ESC
                                         &trans  &trans  &trans  &trans     &trans  &trans  &trans  &trans 
            >;
