@@ -28,14 +28,6 @@
 
 / {
 
-    behaviors {
-        rot_msc: rot_msc {
-            compatible = "zmk,behavior-sensor-rotate-var";
-            #sensor-binding-cells = <2>;
-            bindings = <&msc>, <&msc>;
-        };
-    };
-
     macros {
         press_gui: press_gui {
             label = "ZM_press_gui";
@@ -264,9 +256,9 @@
 &kp LSHFT     &kp Z    &kp X    &kp C        &kp V        &kp B  &kp C_MUTE  &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS   &kp N  &kp M     &kp COMMA &kp DOT  &kp FSLH &kp RET
                                     &kp LCTRL &mo 1  &kp LGUI  &mo 4    &kp LG(SPACE)  &kp SPACE    &mo 2   &kp RALT
             >;
-            sensor-bindings = <&inc_dec_kp LEFT RIGHT>, <&rot_msc SCRL_UP SCRL_DOWN>;
+            sensor-bindings = <&inc_dec_kp LEFT RIGHT &inc_dec_kp C_AC_SCROLL_UP C_AC_SCROLL_DOWN>;
 
-        };
+        };j
 
 // 1 left hand layer
 
