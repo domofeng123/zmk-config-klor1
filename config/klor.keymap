@@ -266,7 +266,7 @@
             >;
             sensor-bindings = <&inc_dec_kp LEFT RIGHT &rot_msc MOVE_Y(-10) MOVE_Y(10)>;
 
-        };j
+        };
 
 // 1 left hand layer
 
